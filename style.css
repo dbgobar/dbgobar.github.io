@@ -1,11 +1,58 @@
 
 body{
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border-style: solid;
-  border-color: #8c8c8c;
-  border-width: 5px;
-  padding: 40px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBQPd34sAAAAASUVORK5CYII=) repeat;
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    line-height: 300px;
+    text-align: center;
+    vertical-align: middle;
+     font-size: 2em;
+}
+.crossed {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.crossed:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1px;
+    bottom: 1px;
+    border-width: 149px;
+    border-style: solid;
+    border-color: black white;
+}
+
+.crossed:after {
+    content: '';
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 0;
+    bottom: 0;
+    border-width: 149px;
+    border-style: solid;
+    border-color: white transparent;
+}
+
+header{
+  text-align: center;
+}
+nav a{
+text-decoration: none;
+color: black;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  text-shadow: 2px 2px 4px #808080;
+}
+nav a:hover{
+  font-size: 60px;
+  color: gray;
 }
