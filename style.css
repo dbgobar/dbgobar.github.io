@@ -12,7 +12,7 @@
   background-size: cover;
 }
 #homeSection {
-  background-image: url(https://static.pexels.com/photos/169573/pexels-photo-169573.jpeg);
+  background-image: url(https://static.pexels.com/photos/94902/pexels-photo-94902.jpeg);
 }
 #wrapper {
   width: 100%;
@@ -21,7 +21,7 @@
   background-color: rgba(0,0,0,0.6);
 }
 #highlight {
-  color:  #339966;
+  color:  #F95F5F;
   /*text-shadow: .25px .5px .2px rgba(255, 255, 255, 0.7);*/
 }
 #icongroup {
@@ -61,11 +61,11 @@ h5 {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: blue; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient( #66ccff, rgba(210, 76, 1, 0) ); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient( #66ccff, rgba(210, 76, 1, 0) ); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient( #66ccff, rgba(210, 76, 1, 0) ); /* For Firefox 3.6 to 15 */
-  background: linear-gradient( #66ccff, rgba(210, 76, 1, 0) ); /* Standard syntax */
+  background: #D16D81; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient( #D16D81, rgba(209, 109, 129, 0) ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( #D16D81, rgba(209, 109, 129, 0) ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( #D16D81, rgba(209, 109, 129, 0) ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( #D16D81, rgba(209, 109, 129, 0) ); /* Standard syntax */
 }
 ul {
   font-family: 'Montserrat', sans-serif;
