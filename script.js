@@ -14,7 +14,7 @@ $(document).ready(function(){
 
 
       //background colors
-      sectionsColor: ['#66ccff', '#66ccff', '#cceeff', '#e6f7ff']
+      sectionsColor: ['#F95F69', '#F95F69', 'F6C8C8', '#B3CEED']
     });
 
     // icon hover effects

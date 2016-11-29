@@ -1,7 +1,8 @@
 #dbg{
-  font-family: 'Raleway', sans-serif;
-  font-size: 150px;
-  margin: auto;
+  /*font-family: 'Raleway', sans-serif;*/
+  /*font-size: 110px;*/
+  margin-bottom: auto;
+
 }
 
 .section {
@@ -21,7 +22,7 @@
   background-color: rgba(0,0,0,0.6);
 }
 #highlight {
-  color:  #F95F5F;
+  color:  #F95F69;
   /*text-shadow: .25px .5px .2px rgba(255, 255, 255, 0.7);*/
 }
 #icongroup {
