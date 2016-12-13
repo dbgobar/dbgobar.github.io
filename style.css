@@ -1,14 +1,24 @@
 #dbg{
-  /*font-family: 'Raleway', sans-serif;*/
-  /*font-family: 'Cabin Sketch', cursive;*/
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Lato', sans-serif;
+  /*font-family: 'Permanent Marker', cursive;*/
   margin-bottom: auto;
+
+}
+#bgvid{
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
 
 }
 
 .section {
   font-size: 3em;
-  /*font-family: 'Montserrat', sans-serif;*/
   font-family: 'Rock Salt', cursive;
   text-align: center;
   color: white;
@@ -16,18 +26,27 @@
   background-size: cover;
 }
 #homeSection {
-  background-image: url(https://static.pexels.com/photos/6675/flight-mountains-sky-flying.jpeg);
+  /*background-image: url(https://static.pexels.com/photos/5350/wave-ocean.jpg);*/
+  /*background-image: url(https://static.pexels.com/photos/6675/flight-mountains-sky-flying.jpeg);*/
+  /*background-image: url(https://static.pexels.com/photos/107954/pexels-photo-107954.jpeg);*/
+  z-index: -2;
 }
+
 #wrapper {
   width: 100%;
   margin: 0 auto;
   padding: 60px;
+  z-index: -3;
 }
 
 .home{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
   width: 100%;
   margin: 0 auto;
-  padding: 40px;
+  padding: 40px;*/
   /*background-color: rgba(0,0,0,0.6);*/
 }
 
@@ -72,11 +91,11 @@ h5 {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: #27B9E5; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient( #27B9E5, rgba(39, 185, 229, 0) ); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient( #27B9E5, rgba(39, 185, 229, 0 ) ); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient( #27B9E5, rgba(39, 185, 229, 0) ); /* For Firefox 3.6 to 15 */
-  background: linear-gradient( #27B9E5, rgba(39, 185, 229, 0) ); /* Standard syntax */
+  /*background: #27B9E5; /* For browsers that do not support gradients */*/
+  /*background: -webkit-linear-gradient( #27B9E5, rgba(39, 185, 229, 0) ); /* For Safari 5.1 to 6.0 */*/
+  /*background: -o-linear-gradient( #27B9E5, rgba(39, 185, 229, 0 ) ); /* For Opera 11.1 to 12.0 */*/
+  /*background: -moz-linear-gradient( #27B9E5, rgba(39, 185, 229, 0) ); /* For Firefox 3.6 to 15 */*/
+  /*background: linear-gradient( #27B9E5, rgba(39, 185, 229, 0) ); /* Standard syntax */*/
 }
 ul {
   font-family: 'Montserrat', sans-serif;
@@ -92,7 +111,7 @@ ul {
 }
 #myMenu a {
   text-decoration: none;
-  color: rgb(51, 51, 51);
+  color: rgba(255,255,255,0.4);
 }
 #myMenu li.active a {
   color: white;
@@ -106,10 +125,10 @@ p {
   letter-spacing: .08em;
 }
 #sky {
-  color: #E16223;
+  color: #27B9E5;
 }
 #orange {
-  color: rgb(207, 64, 26);
+  color: gray;
 }
 #slate, #slate a {
   color: rgb(42, 42, 42);
@@ -148,6 +167,7 @@ p {
   overflow: hidden;
 }
 #clearColumns a {
+  font-family: 'Lato', sans-serif;
   clear: both;
   float: left;
   width: 100%;
@@ -197,7 +217,13 @@ p {
     max-height: 50px;
     margin: 7px;
   }
-  h1 {
+  #wrapper{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+  h1 , #dbg{
     font-size: 35px;
   }
   h3 {
@@ -285,7 +311,7 @@ p {
     max-height: 1em;
     margin: .2em;
   }
-  h1 {
+  h1, #dbg {
     font-size: .8em;
   }
   h5 {

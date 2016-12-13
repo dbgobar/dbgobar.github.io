@@ -14,8 +14,12 @@ $(document).ready(function(){
 
 
       //background colors
-      sectionsColor: ['white', 'black', 'black', '#27B9E5']
+      sectionsColor: ['#76C6D9', 'black', 'black', '#27B9E5']
     });
+});
+
+  // assuming you're using jQuery
+  $('bg-vid video')[0].play()
 
     // icon hover effects
     $(".art").hover(function(){
@@ -26,8 +30,8 @@ $(document).ready(function(){
       $("#altFaves").html(" Singing classical opera..and really all things musical.");
       $("#altFaves").toggle("slow");
     });
-    $(".typography").hover(function(){
-      $("#altFaves").html(" Hand-lettering and Typography.");
+    $(".travel").hover(function(){
+      $("#altFaves").html("Traveling around the world!");
       $("#altFaves").toggle("slow");
     });
     $(".yoga").hover(function(){
@@ -43,12 +47,10 @@ $(document).ready(function(){
       $("#altFaves").toggle("slow");
     });
     $(".chocolate").hover(function(){
-      $("#altFaves").html(" Chocolate, chocolate, chocolate!.");
+      $("#altFaves").html(" Food! Trying every type of food on the planet.");
       $("#altFaves").toggle("slow");
     });
     $(".diy").hover(function(){
       $("#altFaves").html(" Any and all DIY projects. I'm a handy person!");
       $("#altFaves").toggle("slow");
     });
-
-  });
