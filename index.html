@@ -24,20 +24,23 @@
     <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
   </ul>
 
-  <div id="fullpage">
-    <video preload playsinline autoplay muted loop poster="./videos/Lonely-Blue.jpg" id="bgvid">
-        <source src="./videos/Lonely-Blue.webm" type="video/webm">
-        <source src="./videos/Lonely-Blue.mp4" type="video/mp4">
-    </video>
 
+<!-- beginning of entire webpage -->
+  <div id="fullpage">
+
+<!-- start of "home" page -->
     <div class="section" data-menuanchor="welcome" id="homeSection">
 
-      <div id="wrapper" class="home">
+      <video preload playsinline data-autoplay muted loop poster="./videos/Lonely-Blue.jpg" id="bgvid">
+          <source src="./videos/Lonely-Blue.webm" type="video/webm">
+          <source src="./videos/Lonely-Blue.mp4" type="video/mp4">
+      </video>
+      
+      <div id= "wrapper" class="home">
         <h1 id ="dbg">Diana B. Gobar</h1>
         <h5>Full Stack Web Developer. Artist. Curious human.<br>
-        <!-- <span id="highlight">Get to know me: </span><span id="altFaves"> ...</span></h5> -->
+        <span id="highlight">Get to know me: </span><span id="altFaves"> ...</span></h5>
       </div>
-
 
       <!-- <div id="icongroup">
         <img id="dopeIcons" class="art" src="./images/art.png" alt="art">
@@ -56,7 +59,18 @@
       <h2>Who am I ? ...</h2>
 
       <div id="aboutBody">
-
+        <div id="columnContainer">
+          <p id="column1">
+            As a child, I grew up in a culturally diverse and non-traditional way...
+            I was able to view the world from many different perspectives and grew to love
+            change, growth, and anything new.
+            ...<span id="sky">insert here</span>
+          </p>
+          <p id="column2"> I was able to explore my passions for all
+          things creative. I've tried just about every type of hobbie, and of all these
+          things,<span id="sky"> learning to code has given me the most satisfaction.</span>I love creating applications and websites from scratch, and
+            being able to see your design and functionality brought to life.></p>
+        </div>
       </div>
       <h5 id="clearColumns"><a href="#projects">Some of my work so far....</a></h5>
     </div>

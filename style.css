@@ -1,12 +1,11 @@
 #dbg{
   font-family: 'Lato', sans-serif;
-  /*font-family: 'Permanent Marker', cursive;*/
   margin-bottom: auto;
 
 }
 #bgvid{
   position: absolute;
-  z-index: -1;
+  z-index: -100;
   overflow: hidden;
   top: 0;
   left: 0;
@@ -22,9 +21,9 @@
   font-family: 'Rock Salt', cursive;
   text-align: center;
   color: white;
-  /* COLOR FOR ALL FONTS!!!!!!!!!*/
   background-size: cover;
 }
+
 #homeSection {
   /*background-image: url(https://static.pexels.com/photos/5350/wave-ocean.jpg);*/
   /*background-image: url(https://static.pexels.com/photos/6675/flight-mountains-sky-flying.jpeg);*/
@@ -32,15 +31,15 @@
   z-index: -2;
 }
 
-#wrapper {
+#wrapper{
   width: 100%;
   margin: 0 auto;
   padding: 60px;
-  z-index: -3;
+  z-index:1;
 }
 
 .home{
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 99;
