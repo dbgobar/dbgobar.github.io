@@ -13,7 +13,7 @@ $(document).ready(function(){
       slidesNavPosition: 'bottom',
 
       //background colors
-      sectionsColor: ['#76C6D9', 'black', 'black', '#27B9E5']
+      sectionsColor: ['#76C6D9', 'black', 'black', '#7CC8C3']
 
       //  video
       //  afterRender: function(){
