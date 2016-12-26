@@ -189,19 +189,19 @@ p {
 }
 #column1 {
   /*float: left;*/
-  width: 60%;
+  width: 70%;
   text-align: center;
   position: relative;
   left: 70%;
   overflow: hidden;
 }
-#column2 {
+/*#column2 {
   float: left;
   width: 46%;
   position: relative;
   left: 56%;
   overflow: hidden;
-}
+}*/
 #clearColumns a {
   font-family: 'Lato', sans-serif;
   clear: both;
