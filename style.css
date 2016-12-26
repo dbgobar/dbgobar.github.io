@@ -189,10 +189,10 @@ p {
 }
 #column1 {
   /*float: left;*/
-  width: 75%;
+  width: 80%;
   text-align: center;
   position: relative;
-  left: 65%;
+  left: 60%;
   overflow: hidden;
 }
 /*#column2 {
