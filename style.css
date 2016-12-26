@@ -14,7 +14,6 @@
 .section {
   font-size: 3em;
   font-family: 'Rock Salt', cursive;
-  /*font-family: 'Homemade Apple', cursive;*/
   font-weight: lighter;
   text-align: center;
   color: white;
@@ -124,11 +123,11 @@ h5 {
   width: 100%;
   padding: 0;
   margin: 0;
-  /*background: #27B9E5; /* For browsers that do not support gradients */*/
-  /*background: -webkit-linear-gradient( #27B9E5, rgba(39, 185, 229, 0) ); /* For Safari 5.1 to 6.0 */*/
-  /*background: -o-linear-gradient( #27B9E5, rgba(39, 185, 229, 0 ) ); /* For Opera 11.1 to 12.0 */*/
-  /*background: -moz-linear-gradient( #27B9E5, rgba(39, 185, 229, 0) ); /* For Firefox 3.6 to 15 */*/
-  /*background: linear-gradient( #27B9E5, rgba(39, 185, 229, 0) ); /* Standard syntax */*/
+  /*background: #27B9E5; /* For browsers that do not support gradients */
+  /*background: -webkit-linear-gradient( #27B9E5, rgba(39, 185, 229, 0) ); /* For Safari 5.1 to 6.0 */
+  /*background: -o-linear-gradient( #27B9E5, rgba(39, 185, 229, 0 ) ); /* For Opera 11.1 to 12.0 */
+  /*background: -moz-linear-gradient( #27B9E5, rgba(39, 185, 229, 0) ); /* For Firefox 3.6 to 15 */
+  /*background: linear-gradient( #27B9E5, rgba(39, 185, 229, 0) ); /* Standard syntax */
 }
 ul {
   font-family: 'Montserrat', sans-serif;
@@ -152,7 +151,7 @@ ul {
 }
 p {
   color: white;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Reem Kufi', sans-serif;
   font-weight: bolder;
   /*font-family: 'courier';*/
   font-size: .4em;
@@ -185,14 +184,15 @@ p {
   width: 100%;
   position: relative;
   right: 50%;
-  border-right: 3px solid white;
+  /*border-right: 3px solid white;*/
   /*border-right: 3px solid rgb(40, 219, 255);*/
 }
 #column1 {
-  float: left;
-  width: 46%;
+  /*float: left;*/
+  width: 60%;
+  text-align: center;
   position: relative;
-  left: 52%;
+  left: 70%;
   overflow: hidden;
 }
 #column2 {
@@ -212,6 +212,7 @@ p {
   letter-spacing: .1em;
   font-size: 1.5em;
   margin: 40px 0 0 0;
+
 }
 .contactIcons a {
   transition: text-shadow 1s ease;
