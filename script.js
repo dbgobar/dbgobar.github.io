@@ -4,7 +4,7 @@ $(document).ready(function(){
       //Navigation
       menu: '#myMenu',
       lockAnchors: false,
-      anchors:['welcome', 'about', 'projects', 'contact'],
+      anchors:['welcome', 'projects', 'about', 'contact'],
       navigation: false,
       navigationPosition: 'right',
       // navigationTooltips: ['introSlide', 'LRN-Quiz', 'Dreamscape', 'FemiList', 'TrumpyCat', 'ComingSoon'],
