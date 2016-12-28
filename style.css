@@ -13,6 +13,7 @@ h2{
   width: auto;
   height: auto;
 }
+
 #round{
   position: relative;
   left: 41%;
@@ -30,7 +31,6 @@ h2{
   font-size: 3em;
   /*font-family: 'Rock Salt', cursive;*/
   font-family: 'Give You Glory', cursive;
-
   font-weight: lighter;
   text-align: center;
   color: white;
@@ -44,8 +44,9 @@ h2{
 #dbg{
   font-family: 'Lato', sans-serif;
   font-weight: lighter;
-
+  font-size: 140px;
   margin-bottom: auto;
+  margin-top: 0;
 }
 /*  typed -key frame- */
 .typed{
@@ -225,17 +226,22 @@ p {
 }
 .contactIcons{
   margin: 0 auto;
+  padding: 0 ;
   bottom: 0;
+  position: absolute;
+  margin-left: 41%;
+  margin-bottom: 8%;
 }
 .contactIcons a {
   transition: text-shadow 1s ease;
   transition: color 1s ease;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .contactIcons a:hover {
   color: white;
   text-shadow: 7px 7px 10px #7BC3D9;
+  margin-bottom: 10%;
 }
 .fa-stack {
   position: relative;
