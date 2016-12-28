@@ -187,7 +187,6 @@ p {
   position: relative;
   right: 50%;
   /*border-right: 3px solid white;*/
-  /*border-right: 3px solid rgb(40, 219, 255);*/
 }
 #column1 {
   /*float: left;*/
@@ -197,13 +196,7 @@ p {
   left: 60%;
   overflow: hidden;
 }
-/*#column2 {
-  float: left;
-  width: 46%;
-  position: relative;
-  left: 56%;
-  overflow: hidden;
-}*/
+
 #clearColumns a {
   font-family: 'Lato', sans-serif;
   clear: both;
@@ -215,6 +208,11 @@ p {
   font-size: 1.5em;
   margin: 40px 0 0 0;
 
+}
+.contactIcons{
+  margin: 0 auto;
+  bottom: 0;
+  border: 1px solid red;
 }
 .contactIcons a {
   transition: text-shadow 1s ease;
@@ -229,14 +227,14 @@ p {
 .fa-stack {
   position: relative;
   display: inline-block;
-  width: 2em;
-  height: 2em;
+  width: 50px;
+  height: 20px;
   line-height: 2em;
   vertical-align: middle;
-  margin: 0 20px;
+  /*margin: 0 20px;*/
 }
 .fa-2x {
-  font-size: 1em;
+  font-size: 20px;
 }
 .demophoto {
   width: 40%;

@@ -25,9 +25,10 @@
 
   <ul id="myMenu">
     <li data-menuanchor="welcome" class="active"><a href="#welcome">Home</a></li>
-    <li data-menuanchor="about"><a href="#about">About</a></li>
-    <li data-menuanchor="projects"><a href="#projects">Projects</a></li>
-    <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+    <li data-menuanchor="projects"><a href="#about">Projects</a></li>
+    <li data-menuanchor="about"><a href="#projects">About</a></li>
+
+    <!-- <li data-menuanchor="contact"><a href="#contact">Contact</a></li> -->
   </ul>
 
 
@@ -49,36 +50,29 @@
         <!-- </p> -->
       </div>
 
-      <!-- <div id="icongroup">
-        <img id="dopeIcons" class="art" src="./images/art.png" alt="art">
-        <img id="dopeIcons" class="song" src="./images/sing2.png" alt="song">
-        <img id="dopeIcons" class="travel" src="./images/suitcase.png" alt="travel">
-        <img id="dopeIcons" class="yoga" src="./images/yoga.png" alt="yoga">
-        <img id="dopeIcons" class="animals" src="./images/kitten.png" alt="animals">
-        <img id="dopeIcons" class="book" src="./images/book.png" alt="reading">
-        <img id="dopeIcons" class="chocolate" src="./images/donut.png" alt="chocolate">
-        <img id="dopeIcons" class="diy" src="./images/yarn.png" alt="diy">
-      </div> -->
-
-    </div>
-
-    <div class="section" data-menuanchor="about">
-      <h2>Who am I ? ...</h2>
-
-      <div id="aboutBody">
-        <div id="columnContainer">
-          <p id="column1">
-            I am a Full Stack Web Developer, an Artist, an advocate for human and animal rights,
-            and someone who loves to explore all things in life...Thats me! <span id ="seafoam">I have a passion for trying<br> new things and that's what lead
-            me to programming.</span>
-            Out of all of the subjects and skills I've learned throughout the years,
-          learning to code has given me the most satisfaction.
-          I love creating applications and websites from scratch, and
-            being able to see your design and functionality brought to life.</p>
-        </div>
+      <div class="contactIcons">
+        <a href="mailto:dianabgobar@gmail.com?subject=Nice to meet you!">
+          <span class="fa-stack fa-2x">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-envelope-o fa-stack-1x"></i>
+          </span>
+        </a>
+        <a href="https://www.linkedin.com/in/diana-gobar-61ba00aa">
+          <span class="fa-stack fa-2x">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-linkedin fa-stack-1x"></i>
+          </span>
+        </a>
+        <a href="https://github.com/dbgobar">
+          <span class="fa-stack fa-2x">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x"></i>
+          </span>
+        </a>
       </div>
-      <h5 id="clearColumns"><a href="#projects">Some of my work so far....</a></h5>
+
     </div>
+
 <!-- Project reel slides -->
     <div class="section" data-menuanchor="projects">
       <div class="slide" data-anchor="intro">
@@ -153,34 +147,26 @@
         </div>
       </div>
     </div>
-<!--  Contact / footer -->
-    <div class="section" class="contactSection" data-menuanchor="contact">
-      <div id="wrapper">
-      <!-- <img src="images/headshot.jpg"></img> -->
-      <h3>Let's keep in touch.</h3>
-      <p>I'd love to hear from you! Feel free to shoot me an email or check out more about my experience below. </p>
-        <div class="contactIcons">
-          <a href="mailto:dianabgobar@gmail.com?subject=Nice to meet you!">
-            <span class="fa-stack fa-2x">
-              <i class="fa fa-circle-thin fa-stack-2x"></i>
-              <i class="fa fa-envelope-o fa-stack-1x"></i>
-            </span>
-          </a>
-          <a href="https://www.linkedin.com/in/diana-gobar-61ba00aa">
-            <span class="fa-stack fa-2x">
-              <i class="fa fa-circle-thin fa-stack-2x"></i>
-              <i class="fa fa-linkedin fa-stack-1x"></i>
-            </span>
-          </a>
-          <a href="https://github.com/dbgobar">
-            <span class="fa-stack fa-2x">
-              <i class="fa fa-circle-thin fa-stack-2x"></i>
-              <i class="fa fa-github fa-stack-1x"></i>
-            </span>
-          </a>
+
+<!-- ABOUT ME -->
+    <div class="section" data-menuanchor="about">
+      <h2>Who am I ? ...</h2>
+
+      <div id="aboutBody">
+        <div id="columnContainer">
+          <p id="column1">
+            I am a Full Stack Web Developer, an Artist, an advocate for human and animal rights,
+            and someone who loves to explore all things in life...Thats me! <span id ="seafoam">I have a passion for trying<br> new things and that's what lead
+            me to programming.</span>
+            Out of all of the subjects and skills I've learned throughout the years,
+          learning to code has given me the most satisfaction.
+          I love creating applications and websites from scratch, and
+            being able to see your design and functionality brought to life.</p>
         </div>
       </div>
+      <!-- <h5 id="clearColumns"><a href="#projects">Some of my work so far...</a></h5> -->
     </div>
+
   </div>
   <script src="script.js"></script>
 </body>
