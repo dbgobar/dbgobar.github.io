@@ -226,7 +226,6 @@ p {
 .contactIcons{
   margin: 0 auto;
   bottom: 0;
-  border: 1px solid red;
 }
 .contactIcons a {
   transition: text-shadow 1s ease;
