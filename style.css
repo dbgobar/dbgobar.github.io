@@ -258,7 +258,7 @@ p {
 .demophoto {
   width: 40%;
   float: left;
-  margin: 0px 40px 20px 20px;
+  margin: 0px 40px 20px 8%;
 }
 .projectBody {
   text-align: left;
@@ -364,6 +364,15 @@ p {
   .fa-2x {
     font-size: .5em;
   }
+  .demophoto{
+    width: 400px;
+    margin-top: auto;
+    margin-left: 40px;
+    }
+  .projectBody {
+    margin: 5px;
+    margin-left: 50px;
+    }
 }
 /* ---------------------------------------- */
 
@@ -465,7 +474,16 @@ p {
   }
   .contactIcons{
     width: 100%;
+    margin: auto;
   }
+  .demophoto{
+   width: 333px;
+   margin-right: 10px;
+   margin-left: 50px;
+ }
+ .projectBody {
+   font-size: 10px;
+ }
 }
 /*____iPhone 6 Plus ___*/
 @media only screen and (max-width: 414px) {
@@ -484,8 +502,17 @@ p {
   #dbg{
   font-size: 60px;
   }
+  .demophoto{
+   width: 333px;
+   margin-top: auto;
+   margin-left: 40px;
+ }
+ .projectBody {
+   font-size: 10px;
+   text-align: center;
+ }
 }
-/*____Nexus 5s, Nexus 6p______*/
+/*____Nexus S5, Nexus 6p______*/
 @media only screen and (max-width: 412px) {
   .typed{
     margin-left: 6%;
@@ -502,6 +529,14 @@ p {
   #dbg{
     font-size: 60px;
   }
+  .demophoto{
+  width: 332px;
+  margin-top: auto;
+  margin-left: 40px;
+}
+.projectBody {
+  text-align: center;
+}
 }
 /*___Galaxy 5s, iPhone 6___*/
 @media only screen and (max-width: 375px) {
@@ -521,6 +556,14 @@ p {
   #dbg{
     font-size: 55px;
   }
+  .demophoto{
+    width: 280px;
+    margin-top: auto;
+    margin-left: 40px;
+  }
+  .projectBody {
+    text-align: center;
+  }
 }
 /*__iPhone 5____*/
 @media only screen and (max-width: 320px) {
@@ -538,5 +581,14 @@ p {
   }
   #dbg{
     font-size: 47px;
+  }
+  .demophoto{
+  width: 240px;
+  margin-top: auto;
+  margin-left: 40px;
+  }
+  .projectBody {
+  margin: 5px;
+  text-align: center;
   }
 }
