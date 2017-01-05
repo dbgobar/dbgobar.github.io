@@ -613,6 +613,7 @@ p {
   #column1{
     position: relative;
     left: 144px;
+    font-size: 11px;
   }
 }
 /*__iPhone 5____*/
@@ -642,4 +643,16 @@ p {
     margin: 9px;
     text-align: center;
   }
+  #round{
+    left: 17%;
+    top: px;
+    }
+  h2{
+    font-size: 23px;
+    }
+  #column1{
+    position: relative;
+    left: 130px;
+    font-size: 10px;
+    }
 }
