@@ -605,10 +605,10 @@ p {
   }
   #round{
   left: 20%;
-  top: -2px;
+  top: 0px;
   }
   h2{
-    font-size: 30px;
+    font-size: 23px;
   }
   #column1{
     position: relative;
