@@ -468,9 +468,12 @@ p {
 /*___Ipad_____*/
 @media only screen and (max-width: 768px) {
   .typed{
-    margin-left: 30%;
-    font-size: 9px;
-    width: 45%;
+    margin-left: 15%;
+    font-size: 17px;
+    width: 79%;
+  }
+  #dbg{
+    font-size: 100px;
   }
   .contactIcons{
     width: 100%;
@@ -484,6 +487,18 @@ p {
  .projectBody {
    font-size: 10px;
  }
+ #round{
+    left: 35%;
+    top: -29px;
+    }
+  h2{
+    font-size: 40px;
+    }
+  #column1{
+    position: relative;
+    left: 300px;
+    font-size: 20px;
+    }
 }
 /*____iPhone 6 Plus ___*/
 @media only screen and (max-width: 414px) {
@@ -510,7 +525,19 @@ p {
  .projectBody {
    font-size: 10px;
    text-align: center;
+   margin: auto;
  }
+  #round{
+   left: 25%;
+  }
+  h2{
+   font-size: 40px;
+  }
+  #column1{
+   position: relative;
+   left: 165px;
+   font-size: 13px;
+  }
 }
 /*____Nexus S5, Nexus 6p______*/
 @media only screen and (max-width: 412px) {
@@ -533,10 +560,21 @@ p {
   width: 332px;
   margin-top: auto;
   margin-left: 40px;
-}
-.projectBody {
-  text-align: center;
-}
+  }
+  .projectBody {
+    text-align: center;
+    margin: auto;
+  }
+  #round{
+    left: 25%;
+  }
+  h2{
+    font-size: 30px;
+  }
+  #column1{
+    position: relative;
+    left: 150px;
+  }
 }
 /*___Galaxy 5s, iPhone 6___*/
 @media only screen and (max-width: 375px) {
@@ -557,12 +595,23 @@ p {
     font-size: 55px;
   }
   .demophoto{
-    width: 280px;
+    width: 300px;
     margin-top: auto;
     margin-left: 40px;
   }
   .projectBody {
     text-align: center;
+    margin: auto;
+  }
+  #round{
+  left: 20%;
+  }
+  h2{
+    font-size: 30px;
+  }
+  #column1{
+    position: relative;
+    left: 144px;
   }
 }
 /*__iPhone 5____*/
@@ -583,12 +632,13 @@ p {
     font-size: 47px;
   }
   .demophoto{
-  width: 240px;
-  margin-top: auto;
-  margin-left: 40px;
+    width: 240px;
+    margin-top: auto;
+    margin-left: 40px;
   }
   .projectBody {
-  margin: 5px;
-  text-align: center;
+    font-size: 9px;
+    margin: 9px;
+    text-align: center;
   }
 }
