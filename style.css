@@ -605,6 +605,7 @@ p {
   }
   #round{
   left: 20%;
+  top: -2px;
   }
   h2{
     font-size: 30px;
