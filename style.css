@@ -35,8 +35,12 @@ h2{
   text-align: center;
   color: white;
   background-size: cover;
+  background-color: #86B7B7 !important;
 }
 
+.slide{
+  background-color: #86B7B7;
+}
 #homeSection {
   z-index: -2;
 }
@@ -179,7 +183,7 @@ p {
   color: teal;
 }
 #seafoam {
-  color: #7CC8C3;
+  color: #53A693;
 }
 #slate, #slate a {
   color: #B9F7FE;
@@ -346,6 +350,11 @@ p {
   }
   .projectBody {
     font-size: 10px;
+  }
+  .fb-controlArrow{
+    color: blue;
+    background: blue;
+    background-color:blue;
   }
   .fp-controlArrow.fp-prev {
     width: 0;
